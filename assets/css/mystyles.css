@@ -1,0 +1,57 @@
+#movableLuke {
+	border: 2px green solid;
+}
+#movableVader {
+	border: 2px black solid;
+}
+#movableMaul {
+	border: 2px red solid;
+}
+#movableObi {
+	border: 2px blue solid;
+}
+.box {
+	background-color: white;
+	margin: 0;
+}
+#attackButton {
+	margin-bottom: 10px;
+}
+.tempbox{
+	border: 2px solid black;
+}
+.box, p{
+	text-align: center;
+	margin: 0;
+}
+p {
+	text-align: center;
+	font-weight: bold;
+}
+img {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	height: 110px;
+	width: 100%;
+}
+h1 {
+	text-align: right;
+}
+h3 {
+	text-align: center;
+}
+button {
+	margin-left: 45%;
+}
+.highlightEnemies {
+	background-color: red;
+}
+.highlightDefender {
+	background-color: black;
+}
+.firstMargin {
+	margin-left: 90px;
+}
+.secondMargin {
+	margin-left: 180px;
+}

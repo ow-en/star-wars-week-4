@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+    	<meta charset="UTF-8">
+     	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/mystyles.css">
+		
+
+		<title>Star Wars RPG</title>
+	</head>
+
+	<body background="assets/images/bg1.jpg">
+
+
+		<div class="container">
+
+			<div class="page-header">
+				<h1>Star Wars RPG</h1>
+			</div>
+
+			<div class="row" id="charSelectDiv">
+				<div class="col-sm-2" id="emptyDiv"></div>
+				<div class="col-sm-2 box" id="movableObi">
+					<p>Obi-Wan Kenobi</p>
+					<img alt="ObiWan" src="assets/images/obi.jpg" />
+					<p id="obiHealth">180</p>
+				</div>
+				<div class="col-sm-2 box" id="movableLuke">
+					<p>Luke Skywalker</p>
+					<img alt="LukeSkywalker" src="assets/images/luke.jpeg" />
+					<p id="lukeHealth">150</p>
+				</div>
+				<div class="col-sm-2 box" id="movableMaul">
+					<p>Darth Maul</p>
+					<img src="assets/images/maul.png" />
+					<p id="maulHealth">140</p>
+				</div>
+				<div class="col-sm-2 box" id="movableVader">
+					<p>Darth Vader</p>
+					<img src="assets/images/vader.jpg" />
+					<p id="vaderHealth">170</p>
+				</div>
+			</div>
+
+
+			<div class="row">
+				<div class="col-sm-3" id="charSlot">
+					<h3>Your Character</h3>
+				</div>
+				<div class="col-sm-3" id="defenderSlot">
+					<h3>Defender</h3>
+				</div>
+				<div class="col-sm-6" id="becomeEnemy">	
+					<h3>Enemies available to attack</h3>
+				</div>
+			</div>
+
+
+			<div class="row">
+				<div class="col-sm-6 col-sm-offset-3" id="fightSection">
+					<h3>Battle Arena</h3>
+					<button type="button" id="attackButton">Attack</button>
+					<p id="emptyAttack"></p>
+					<p id="emptyDefend"></p>
+				</div>
+			</div>
+		</div>
+
+
+	    <script src="assets/js/jquery.min.js" type="text/javascript"></script>
+	    <script src="assets/js/bootstrap.min.js" type="text/javascript"></script> 
+		<script src="assets/js/game.js" type="text/javascript"></script>
+	</body>
+
+</html>
